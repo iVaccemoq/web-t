@@ -1,0 +1,10 @@
+.hamburger{
+    cursor: pointer;
+    &__lines{
+        display: block;
+        width: 25px;
+        height: 2px;
+        background-color: #464646;
+        margin-bottom: 7px;
+    }
+}
