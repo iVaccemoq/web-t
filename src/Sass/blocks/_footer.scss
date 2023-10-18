@@ -1,0 +1,98 @@
+.footer{
+    padding: 50px 0;
+    background-color: #1A1A1A;
+    &__logo{
+        width: 180px;
+        height: 36px;
+        margin-bottom: 40px;
+    }
+    &__tel{
+        color: var(--orange, #EB6329);
+        font-family: Gilroy;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 100%;
+        display: block;
+    }
+    &__text{
+        color: var(--White, #FFF);
+        font-family: Gilroy;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 100%; /* 15px */
+        letter-spacing: 0.3px;
+        margin-bottom: 40px;
+    }
+    &__socials{
+        padding: 0;
+        margin: 0;
+        list-style-type: none;
+    }
+    &__social{
+        color: white;
+        margin-bottom: 22px;
+    }
+    &__link{
+        color: white;
+        text-decoration: underline;
+    }
+    &__txt{
+        color: var(--bckgrnd-grey, #D8D8D8);
+        font-family: Gilroy;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 140%;
+    }
+    &__wrapper2{
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        margin-top: 19px;
+        position: relative;
+        ::after{
+            content: '';
+            position: absolute;
+            display: block;
+            width: 340px;
+            height: 1px;
+            background-color: #464646; 
+            margin-top: 40px;  
+            top: 40; 
+            left: 0;  
+        }
+    }
+    &__items{
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        margin-top: 80px;
+        margin-bottom: 60px;
+    }
+    &__item{
+        margin-bottom: 15px;
+        color: white;
+    }
+    &__condif{
+        color: var(--Orange, #EB6329);
+        font-family: Gilroy;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 100%;
+        margin-bottom: 15px;
+    }
+    &__tech{
+        color: var(--Orange, #EB6329);
+        font-family: Gilroy;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 100%;
+        margin-bottom: 15px;
+    }
+
+
+}
