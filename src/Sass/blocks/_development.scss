@@ -1,0 +1,47 @@
+.development {
+    padding-top: 80px;
+    margin-bottom: 90px;
+    &__items{
+        margin: 0;
+        list-style-type: none;
+        padding: 0;
+    }
+    &__img{
+        margin-bottom: 20px;
+    }
+    &__title{
+        color: var(--Txt, #464646);
+        font-family: Gilroy;
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 120%;
+        
+    }
+    &__descr{
+        color: var(--Txt, #464646);
+        font-family: Gilroy;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 130%; /* 23.4px */
+        margin-bottom: 40px;
+    }
+    &__more{
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        img{
+            margin-bottom: 6px;
+        }
+    }
+    &__text{
+        color: var(--bckgrnd-black, #1A1A1A);
+        font-family: Gilroy;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 100%;
+    }
+}

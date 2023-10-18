@@ -3,7 +3,7 @@
     background: url('../../img/bgc.jpg') center center/cover no-repeat;
     min-height: 426px;
     padding: 80px 45px 160px 60px;
-    position: relative;
+    
     h1{
         color: #FFF;
         font-family: Gilroy;
@@ -12,14 +12,16 @@
         line-height: 130%; /* 31.2px */
         text-transform: uppercase;
         width: 325px; 
+        position: relative;
+        &::before{
+            content: '';
+            position: absolute;
+            display: block;
+            width: 5px;
+            height: 186px;
+            background-color: #EB6329;
+            left: -10px;          
+        }
     }
-    &::before{
-        content: '';
-        position: absolute;
-        display: block;
-        width: 5px;
-        height: 186px;
-        background-color: #EB6329;
-        left: 45px;          
-    }
+    
 }
