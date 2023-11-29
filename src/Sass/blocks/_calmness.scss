@@ -1,13 +1,17 @@
+
+
 .calmness{
     padding: 130px 0;
     background: var(--bckgrnd-grey, #D8D8D8);
     &__title{
+        margin: 0;
         text-align: center;
         color: var(--Orange, #EB6329);
-        font-family: Gilroy;
+        font-family: Gilroy-1;
+        font-weight: 700;
         font-size: 24px;
         font-style: normal;
-        font-weight: 700;
+        font-weight: normal;
         line-height: 130%;
     }
 }

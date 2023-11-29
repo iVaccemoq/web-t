@@ -1,9 +1,10 @@
 .industry{
     padding-top: 50px;
     min-height: 442px;
+    padding-bottom: 50px;
     &__title{
         color: var(--Txt, #464646);
-        font-family: Gilroy;
+        font-family: Gilroy-1;
         font-size: 20px;
         font-style: normal;
         font-weight: 700;
@@ -27,7 +28,7 @@
         border: 2px solid var(--Txt, #464646);
         padding: 11px 16px;
         color: var(--Txt, #464646);
-        font-family: Gilroy;
+        font-family: Gilroy-3;
         font-size: 16px;
         font-style: normal;
         font-weight: 600;
@@ -39,7 +40,7 @@
     }
     &__filters{
         color: var(--bckgrnd-black, #1A1A1A);
-        font-family: Gilroy;
+        font-family: Gilroy-1;
         font-size: 16px;
         font-style: normal;
         font-weight: 700;
