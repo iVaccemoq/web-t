@@ -5,11 +5,14 @@
     &__input{
         border: 1px solid var(--bckgrnd-grey, #D8D8D8);
         background: var(--White, #FFF);
-        width: 310px;
+        width: 100%;
         padding: 14px 15px;
         margin-bottom: 25px;
         &::placeholder{
             color: #ABABAB;
+        }
+        &:nth-child(7){
+            height: 130px;
         }
     }
     &__wrapper{

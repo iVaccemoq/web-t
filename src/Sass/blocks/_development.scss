@@ -5,6 +5,8 @@
         margin: 0;
         list-style-type: none;
         padding: 0;
+        display: flex;
+        flex-wrap: wrap;
     }
     &__img{
         margin-bottom: 20px;
@@ -43,5 +45,8 @@
         font-style: normal;
         font-weight: 700;
         line-height: 100%;
+    }
+    &__item{
+        width: 340px;
     }
 }
