@@ -26,6 +26,14 @@
     }
     &__navigationItem{
         display: none;
+        a{
+            color: var(--orange, #EB6329);
+            font-family: Gilroy-3;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 100%;
+        }
     }
     
     
