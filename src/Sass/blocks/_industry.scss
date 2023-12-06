@@ -5,7 +5,7 @@
     &__title{
         color: var(--Txt, #464646);
         font-family: Gilroy-1;
-        font-size: 20px;
+        font-size: 1.25rem;
         font-style: normal;
         font-weight: 700;
         line-height: 120%; 
@@ -31,7 +31,7 @@
         color: var(--Txt, #464646);
         margin-bottom: 20px;
         font-family: Gilroy-3;
-        font-size: 16px;
+        font-size: 1rem;
         font-style: normal;
         font-weight: 600;
         line-height: 120%;
@@ -61,7 +61,7 @@
     &__filters{
         color: var(--bckgrnd-black, #1A1A1A);
         font-family: Gilroy-1;
-        font-size: 16px;
+        font-size: 1rem;
         font-style: normal;
         font-weight: 700;
         line-height: 100%; /* 16px */
