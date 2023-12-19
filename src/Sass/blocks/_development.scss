@@ -74,6 +74,9 @@
             background-color: rgb(156, 218, 233);
         }
     }
+    &__none{
+        display: none;
+    }
     &__spinner{
         position: absolute;
         top: 0;
