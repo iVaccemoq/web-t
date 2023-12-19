@@ -20,6 +20,16 @@
         a{
             color: white;
             text-decoration-line: underline;
+            &:hover{
+                color: white;
+            }
+            &:focus{
+                color: green;
+            }
+            &:active{
+                color: purple;
+            }
         }
+        
     }
 }

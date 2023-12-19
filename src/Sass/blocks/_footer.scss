@@ -2,9 +2,6 @@
     padding: 50px 0;
     background-color: #1A1A1A;
     &_grid{
-        /* position: absolute;
-        right: 0;
-        bottom: 0; */
         width: 100%;
     }
     &__logo{
@@ -20,6 +17,16 @@
         font-weight: 600;
         line-height: 100%;
         display: block;
+        &:hover{
+            color: var(--orange,#eb6329);
+            text-decoration: none;
+        }
+        &:focus{
+            color: green;
+        }
+        &:active{
+            color: purple;
+        }
     }
     &__text{
         color: var(--White, #FFF);
@@ -35,16 +42,37 @@
         padding: 0;
         margin: 0;
         list-style-type: none;
+        
     }
     &__social{
         color: white;
         margin-bottom: 22px;
         display: block;
         cursor: pointer;
+
+        &:hover{
+            color: white;
+            text-decoration: none;
+        }
+        &:focus{
+            color: green;
+        }
+        &:active{
+            color: purple;
+        }
     }
     &__link{
         color: white;
         text-decoration: underline;
+        &:hover{
+            color: white;
+        }
+        &:focus{
+            color: green;
+        }
+        &:active{
+            color: purple;
+        }
     }
     &__txt{
         color: var(--bckgrnd-grey, #D8D8D8);
@@ -85,6 +113,16 @@
         color: white;
         display: block;
         cursor: pointer;
+        &:hover{
+            color: white;
+            text-decoration: none;
+        }
+        &:focus{
+            color: green;
+        }
+        &:active{
+            color: purple;
+        }
     }
     &__condif{
         color: var(--Orange, #EB6329);
@@ -94,6 +132,16 @@
         font-weight: 400;
         line-height: 100%;
         margin-bottom: 15px;
+        cursor: pointer;
+        &:hover{
+            color: var(--Orange, #EB6329);
+        }
+        &:focus{
+            color: green;
+        }
+        &:active{
+            color: purple;
+        }
     }
     &__tech{
         color: var(--Orange, #EB6329);
@@ -103,6 +151,17 @@
         font-weight: 400;
         line-height: 100%;
         margin-bottom: 15px;
+        cursor: pointer;
+        &:hover{
+            color: var(--Orange, #EB6329);
+            text-decoration: none;
+        }
+        &:focus{
+            color: green;
+        }
+        &:active{
+            color: purple;
+        }
     }
 
 

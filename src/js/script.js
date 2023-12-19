@@ -1,6 +1,6 @@
 
 
-const buttons = document.querySelectorAll('.industry__button');
+/* const buttons = document.querySelectorAll('.industry__button');
 
 buttons.forEach((item, i) => {
     item.addEventListener('click', () =>{
@@ -9,4 +9,4 @@ buttons.forEach((item, i) => {
         })
         item.style.background = 'red'
     })
-})
+}) */
