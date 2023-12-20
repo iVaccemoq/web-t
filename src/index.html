@@ -8,15 +8,15 @@
 </head>
 <body>
     <header class="header">
-        <h2 class="header__h"></h2>
+        <h2 class="header__h">fsdfds</h2>
         <div class="container">
             <a href="#"><img class="header__logo" src="./icons/Logoss.svg" alt="Logo"></a>
             <nav class="header__navigation">
                 <div class="header__navigationList">
-                    <a href="#" class="header__navigationItem">Главная</a>
-                    <a href="#" class="header__navigationItem">Компетенции</a>
-                    <a href="#" class="header__navigationItem">О компании</a>
-                    <a href="#" class="header__navigationItem">Контакты</a>
+                    <a href="#main-section" class="header__navigationItem">Главная</a>
+                    <a href="#industry-section" class="header__navigationItem">Компетенции</a>
+                    <a href="#aboutUs-section" class="header__navigationItem">О компании</a>
+                    <a href="#footer-section" class="header__navigationItem">Контакты</a>
                     <div class="header__navigationItem">
                         <a href="tel:+88003027479">8 800 302 74 79</a>
                     </div>
@@ -28,7 +28,7 @@
         </div>
     </header>
     <main>
-        <section class="main">
+        <section class="main" id="main-section">
             <div class="container">
                 
                 <h1>Более 300
@@ -37,7 +37,7 @@
                 
             </div>
         </section>
-        <section class="industry">
+        <section class="industry" id="industry-section">
             <div class="container">
                 <h2 class="industry__title">Отрасль</h2>
                 <div class="industry__list">
@@ -63,8 +63,8 @@
                 </a>
             </div> 
         </section>
-        <section class="development">
-            <h2 class="development__none"></h2>
+        <section class="development" id="development-section">
+            <h2 class="development__none">3123</h2>
             <div class="container">
                 <ol class="development__items">
                     <li class="development__item">
@@ -117,7 +117,7 @@
             </div>
         </div>
     
-        <section class="aboutUs">
+        <section class="aboutUs" id="aboutUs-section">
             <div class="container">
                 <h2 class="aboutUs__title">Лидеры отрасли выбирают нас</h2>
     
@@ -161,7 +161,7 @@
             </div>
         </section>
     
-        <section class="contactUs">
+        <section class="contactUs" id="contactUs-section">
             <div class="container">
                 <div class="contactUs__wrapper">
                     <h2 class="contactUs__title">Поможем реализовать
@@ -174,13 +174,20 @@
                     <p class="contactUs__descr">Вы всегда можете получить бесплатную консультацию по телефону <a href="tel:88003027479">8 800 302-74-79</a>, по почте <a href="mailto:info@steelmetrixx.ru">info@stelmetrixx.ru</a> или в <a href="#">WhatsApp</a> и <a href="#">Telegram</a>.</p>
                 </div>
                 <form action="222" class="form">
-                    <input name="name" required placeholder="Ваше имя*" class="form__input" type="text">
-                    <input name="email" required placeholder="E-mail*" class="form__input" type="text">
-                    <input name="number" required placeholder="Телефон" class="form__input" type="text">
-                    <input name="reg" required placeholder="Регион" class="form__input" type="text">
-                    <input name="city" required placeholder="Город (населенный пункт)*" class="form__input" type="text">
-                    <input name="industry" required placeholder="Отрасль*" class="form__input" type="text">
-                    <input name="comment" required placeholder="Комментарий" class="form__input" type="text">
+                    <label for="name"></label>
+                    <input name="name" id="name" required placeholder="Ваше имя*" class="form__input" type="text">
+                    <label for="email"></label>
+                    <input name="email" id="email" required placeholder="E-mail*" class="form__input" type="text">
+                    <label for="number"></label>
+                    <input name="number" id="number" required placeholder="Телефон" class="form__input" type="text">
+                    <label for="reg"></label>
+                    <input name="reg" id="reg" required placeholder="Регион" class="form__input" type="text">
+                    <label for="city"></label>
+                    <input name="city" id="city" required placeholder="Город (населенный пункт)*" class="form__input" type="text">
+                    <label for="industry"></label>
+                    <input name="industry" id="industry" required placeholder="Отрасль*" class="form__input" type="text">
+                    <label for="comment"></label>
+                    <input name="comment" id="comment" required placeholder="Комментарий" class="form__input" type="text">
                     <div class="form__wrapper">
                         <input name="checkbox" required type="checkbox">
                         <div class="form__personal">
@@ -194,7 +201,7 @@
         </section>
     </main>
 
-    <footer class="footer">
+    <footer class="footer" id="footer-section">
         <div class="container">
             <img class="footer__logo" src="icons/Logo.svg" alt="logo">
             <div class="footer__num-wrapper">
@@ -219,7 +226,7 @@
 
             <div class="footer__right">
                 <div class="footer__wrapper">
-                    <img class="footer__img" src="icons/mail icon.svg" alt="mail">
+                    <img class="footer__img" src="icons/mailicon.svg" alt="mail">
                     <a class="footer__link" href="mailto:info@steelmetrixx.ru">info@stelmetrixx.ru</a>
                 </div>
     
@@ -234,8 +241,8 @@
             <div class="footer__items">
                 <a href="grid.html" class="footer__item">О компании</a>
                 <a href="form.html" class="footer__item">Производственные технологии</a>
-                <a href="" class="footer__item">Выполненные проекты</a>
-                <a href="" class="footer__item">Контакты</a>
+                <a href="#development-section" class="footer__item">Выполненные проекты</a>
+                <a href="#contactUs-section" class="footer__item">Контакты</a>
             </div>
 
             <a href="#" class="footer__condif">Политика конфиденциальности</a>

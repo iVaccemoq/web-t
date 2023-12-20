@@ -103,3 +103,8 @@
       opacity: 1;
     }
   } */
+
+  ::selection{
+    background-color: grey;
+    color: #333;
+  }
